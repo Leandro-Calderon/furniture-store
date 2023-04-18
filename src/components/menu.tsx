@@ -1,26 +1,27 @@
 import { Link } from "react-router-dom"
+import styles from "./menu.module.css"
 
 const Menu = () => {
   return (
-    <nav>
-    <ul>
+    <nav className={styles.navContainer}>
+    <ul className={styles.navPrincipal}>
     <li>
-    <Link to={"/"}>Home</Link>
+    <Link style={{textDecoration: 'none'}}  to={"/"}>Home</Link>
     </li>
     <li>
-    <Link to={"/about"}>Nosotros</Link>
+    <Link style={{textDecoration: 'none'}}  to={"/about"}>Nosotros</Link>
     </li>
     <li>
-    <Link to={"/blog"}>Blog</Link>
+    <Link style={{textDecoration: 'none'}}  to={"/blog"}>Blog</Link>
     </li>
     <li>
-    <Link to={"/contact"}>Contacto</Link>
+    <Link style={{textDecoration: 'none'}} to={"/contact"}>Contacto</Link>
     </li>
     <li>
-    <Link to={"/gallery"}>Galeria</Link>
+    <Link style={{textDecoration: 'none'}}  to={"/gallery"}>Galeria</Link>
     </li>
     <li>
-    <Link to={"/store"}>Tienda</Link>
+    <Link style={{textDecoration: 'none'}}  to={"/store"}>Tienda</Link>
     </li>
     </ul>
   </nav>

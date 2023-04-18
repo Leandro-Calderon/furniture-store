@@ -1,0 +1,30 @@
+/* hay que hacer un estado global ? */
+img {
+  max-width: 100%;
+  display: block;
+}
+.categorias {
+  padding-top: 5rem;
+}
+.categorias h2 {
+  text-align: center;
+}
+.listadoCategorias {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.categoria a {
+  display: block;
+  text-align: center;
+  padding: 2rem;
+  font-size: 2rem;
+  font-family: sans-serif;
+  text-decoration: none;
+}
+.categoria a:hover {
+  cursor: pointer;
+  background-color: var(--titulo);
+  color: aliceblue;
+  border-bottom-right-radius: 1rem;
+}

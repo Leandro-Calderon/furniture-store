@@ -2,7 +2,10 @@ import Menu from "../components/menu"
 
 const Gallery = () => {
   return (
-   <Menu/>
+    <>
+    <Menu/>
+    <div>Gallery</div>
+    </>
   )
 }
 

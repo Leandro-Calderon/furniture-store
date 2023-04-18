@@ -1,0 +1,16 @@
+.navPrincipal {
+  display: flex;
+  font-weight: bold;
+  color: #037bc0;
+  list-style-type: none;
+  text-transform: uppercase;
+  gap: 1rem;
+  justify-content: space-evenly;
+ 
+}
+.navContainer {
+  border-top: .1rem solid #e1e1e1;
+  margin: 0 auto;
+  /* margin-inline: auto; */
+  
+}

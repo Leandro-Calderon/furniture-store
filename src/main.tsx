@@ -1,20 +1,20 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import App from './App'
-import './index.css'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import Home from './routes/Home'
-import About from './routes/About'
-import Store from './routes/Store'
-import Blog from './routes/Blog'
-import Gallery from './routes/Gallery'
-import Contact from "./routes/Contact"
+import {Home, About, Store,Blog, Gallery, Contact,Error } from "./routes"
+// import styles from "./app.css"
 
 const router = createBrowserRouter([
 {
   path:"/",
   element:<Home/>,
-  errorElement:<h1>Error</h1>
+  errorElement:<Error/>,
+  // children:[
+  //   {
+  //     path:"contacts/:contactid",
+  //     element:<Contact/>
+  //   }
+  // ]
 },
 {
   path:"/about",
@@ -41,8 +41,6 @@ const router = createBrowserRouter([
 
 ReactDOM.createRoot(document.getElementById('root') as HTMLElement).render(
   <React.StrictMode>
-<RouterProvider router={router}/>
+    <RouterProvider router={router}/>
   </React.StrictMode>
- 
-
 )

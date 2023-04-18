@@ -2,10 +2,10 @@ import Menu from "../components/menu"
 
 const About = () => {
   return (<>
-  
-    <Menu/>
-    <div>About</div>
-    </>
+  <Menu/>
+  <div>About</div>
+  </>
+    
   )
 }
 

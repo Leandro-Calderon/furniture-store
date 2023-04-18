@@ -1,0 +1,38 @@
+:root {
+  --titulo: #037bc0;
+ }
+*{
+  box-sizing: border-box;
+  /* outline: 1px solid red; //para ver las cajas externas con linea roja   */
+}
+
+html {
+  box-sizing: border-box;
+  font-size: 62.5%;
+  /* este es un hack para que un rem sea igual a 10px */
+}
+
+a {
+  color: black;
+}
+body {
+ 
+  font-family: "Raleway", sans-serif;
+  font-size: 1.6rem;
+  line-height: 1.5;
+}
+h1,
+h2,
+h3 {
+  font-family: "Playfair Display", serif;
+  margin: 0 0 5rem 0;
+}
+h1 {
+  font-size: 5rem;
+}
+h2 {
+  font-size: 3rem;
+}
+h3 {
+  font-size: 1.5rem;
+}
