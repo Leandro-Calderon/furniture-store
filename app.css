@@ -1,7 +1,7 @@
 :root {
   --titulo: #037bc0;
- }
-*{
+}
+* {
   box-sizing: border-box;
   /* outline: 1px solid red; //para ver las cajas externas con linea roja   */
 }
@@ -16,7 +16,6 @@ a {
   color: black;
 }
 body {
- 
   font-family: "Raleway", sans-serif;
   font-size: 1.6rem;
   line-height: 1.5;
@@ -35,4 +34,18 @@ h2 {
 }
 h3 {
   font-size: 1.5rem;
+}
+.btn {
+  display: block;
+  cursor: pointer;
+  text-decoration: none;
+  background-color: #8cbc00;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  transition: background-color 0.3s ease-out;
+}
+.btn:hover {
+  background-color: #769c02;
 }

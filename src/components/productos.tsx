@@ -13,7 +13,9 @@ const productos = () => {
             <h3>Producto1</h3>
             <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
             <p className={Styles.precio}>$200000</p>
-            <a href="#">Agregar al carrito</a>
+            <a className="btn" href="#">
+              Agregar al carrito
+            </a>
           </div>
         </div>
         <div className={Styles.producto}>
@@ -24,7 +26,9 @@ const productos = () => {
             <h3>Producto2</h3>
             <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
             <p className={Styles.precio}>$200000</p>
-            <a href="#">Agregar al carrito</a>
+            <a className="btn" href="#">
+              Agregar al carrito
+            </a>
           </div>
         </div>
         <div className={Styles.producto}>
@@ -35,7 +39,9 @@ const productos = () => {
             <h3>Producto3</h3>
             <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
             <p className={Styles.precio}>$200000</p>
-            <a href="#">Agregar al carrito</a>
+            <a className="btn" href="#">
+              Agregar al carrito
+            </a>
           </div>
         </div>
         <div className={Styles.producto}>
@@ -46,7 +52,9 @@ const productos = () => {
             <h3>Producto4</h3>
             <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
             <p className={Styles.precio}>$200000</p>
-            <a href="#">Agregar al carrito</a>
+            <a className="btn" href="#">
+              Agregar al carrito
+            </a>
           </div>
         </div>
         <div className={Styles.producto}>
@@ -57,7 +65,9 @@ const productos = () => {
             <h3>Producto5</h3>
             <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
             <p className={Styles.precio}>$200000</p>
-            <a href="#">Agregar al carrito</a>
+            <a className="btn" href="#">
+              Agregar al carrito
+            </a>
           </div>
         </div>
         <div className={Styles.producto}>
@@ -68,7 +78,9 @@ const productos = () => {
             <h3>Producto6</h3>
             <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
             <p className={Styles.precio}>$200000</p>
-            <a href="#">Agregar al carrito</a>
+            <a className="btn" href="#">
+              Agregar al carrito
+            </a>
           </div>
         </div>
       </div>
