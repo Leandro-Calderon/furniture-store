@@ -33,8 +33,9 @@
   grid-column-start: 1;
   grid-column-end: 7;
   display: grid;
-  grid-template-columns: 2fr 2fr;
+  grid-template-columns: 3fr 1fr;
 }
+
 .listadoProductos :nth-child(2) {
   grid-column-start: 1;
   grid-column-end: 4;
@@ -54,4 +55,16 @@
 .listadoProductos :nth-child(6) {
   grid-column-start: 5;
   grid-column-end: 7;
+}
+.listadoProductos :nth-child(1) img,
+.listadoProductos :nth-child(2) img,
+.listadoProductos :nth-child(3) img {
+  height: 30rem;
+  width:100%;
+  object-fit: cover;
+}
+.listadoProductos :nth-child(1) img{
+  height: 43rem;
+  width:100%;
+  object-fit: cover;
 }

@@ -6,12 +6,10 @@ const productos = () => {
       <h2>Nuestros Productos</h2>
       <div className={Styles.listadoProductos}>
         <div className={Styles.producto}>
-          <div>
-            <img src="src/assets/img/producto1.jpg" alt="imagen producto" />
-          </div>
+          <img src="src/assets/img/producto1.jpg" alt="producto1" />
           <div className={Styles.textoProducto}>
             <h3>Producto1</h3>
-            <p>dfsadfdsfsdfsdfsdafsadfdsfsdsfaaddddddddddddddddddddafsadfsdf</p>
+            <p>dfsadfdfsdf</p>
             <p className={Styles.precio}>$200000</p>
             <a className="btn" href="#">
               Agregar al carrito
