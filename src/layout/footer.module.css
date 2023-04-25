@@ -1,3 +1,18 @@
-a{
-    color: chartreuse
+.footer {
+  border-top: 1px solid #efefef;
+  margin: 5rem;
+  padding: 5rem;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.footer h3 {
+  margin: 0.5rem;
+}
+.enlace a {
+  display: block;
+  text-decoration: none;
+  cursor: pointer;
+}
+.copyright {
+  text-align: center;
 }
