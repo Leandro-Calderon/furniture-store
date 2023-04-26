@@ -1,6 +1,6 @@
 import Styles from "./productos.module.css";
 
-const productos = () => {
+const Productos = () => {
   return (
     <section className={Styles.productos}>
       <h2>Nuestros Productos</h2>
@@ -78,4 +78,4 @@ const productos = () => {
   );
 };
 
-export default productos;
+export default Productos;

@@ -1,0 +1,23 @@
+.container {
+}
+.textCenter {
+  text-align: center;
+}
+.containerGrid {
+  display: grid;
+  grid-template-columns: 1fr 2fr;
+  grid-template-columns: repeat(auto-fit, minmax(25rem, 1fr));
+  column-gap: 4rem;
+}
+/* .imagen {
+  grid-column-start: 1;
+  grid-column-end: 2;
+  /* height: 10rem;
+  width: 100%;
+  object-fit: cover; */
+
+.informacionNosotros {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+} 
