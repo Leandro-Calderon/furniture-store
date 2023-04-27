@@ -1,0 +1,29 @@
+.blog {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  column-gap: 4rem;
+}
+.entrada {
+  border-bottom: 2px solid #e1e1e1;
+  padding-bottom: 4rem;
+  margin-bottom: 2rem;
+}
+.entrada:last-of-type {
+  border-bottom: none;
+}
+.textCenter {
+  text-align: center;
+}
+/* .imagen {
+  min-height: 20rem;
+  width: 100%;
+  object-fit: cover;
+} */
+.entradaMeta {
+  display: flex;
+  justify-content: space-between;
+}
+.entradaMeta {
+  font-weight: 700;
+}
+

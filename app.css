@@ -44,8 +44,12 @@ h3 {
   text-transform: uppercase;
   font-weight: 900;
   padding: 1rem;
+  text-align: center;
   transition: background-color 0.3s ease-out;
 }
 .btn:hover {
   background-color: #769c02;
+}
+.maxWidth30 {
+  max-width: 30rem;
 }
