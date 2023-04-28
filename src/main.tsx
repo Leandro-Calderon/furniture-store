@@ -1,7 +1,7 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import { createBrowserRouter, RouterProvider } from 'react-router-dom'
-import {Home, About, Store,Blog, Gallery, Contact,Error } from "./routes"
+import {Home, About, Store,Blog, Gallery, Contact,Error, EntradaBlog } from "./routes"
 // import styles from "./app.css"
 
 const router = createBrowserRouter([
@@ -26,7 +26,13 @@ const router = createBrowserRouter([
 },
 {
   path:"/blog",
-  element:<Blog/>
+  element:<Blog/>,
+  children: [
+    {
+      path:"entradaBlog",
+      element:<EntradaBlog/>
+    }
+  ]
 },
 {
   path:"/gallery",

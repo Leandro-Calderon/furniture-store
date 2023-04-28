@@ -2,6 +2,7 @@ import Menu from "../components/menu";
 import Footer from "../layout/footer";
 import Header from "../layout/header";
 import Styles from "./Blog.module.css";
+import { Link } from "react-router-dom";
 
 const Blog = () => {
   return (
@@ -40,9 +41,9 @@ const Blog = () => {
                 vel, optio a libero dolores amet non facilis illo repudiandae.
                 Esse ex tempore id.
               </p>
-              <a href="#" className="btn btn:hover maxWidth30">
+              <Link className="btn btn:hover maxWidth30" to={"./EntradaBlog"}>
                 Leer
-              </a>
+              </Link>
             </div>
           </article>
           <aside>
@@ -84,6 +85,9 @@ const Blog = () => {
                 vel, optio a libero dolores amet non facilis illo repudiandae.
                 Esse ex tempore id.
               </p>
+              <a href="#" className="btn btn:hover maxWidth30">
+                Leer
+              </a>
             </div>
           </article>
         </section>

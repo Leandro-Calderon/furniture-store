@@ -11,6 +11,10 @@
 .entrada:last-of-type {
   border-bottom: none;
 }
+.entrada{
+  width: 60rem;
+  margin: 0 auto;
+}
 .textCenter {
   text-align: center;
 }
