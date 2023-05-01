@@ -37,7 +37,6 @@ h3 {
 }
 .btn {
   display: block;
-  cursor: pointer;
   text-decoration: none;
   background-color: #8cbc00;
   color: #fff;
@@ -46,6 +45,8 @@ h3 {
   padding: 1rem;
   text-align: center;
   transition: background-color 0.3s ease-out;
+  cursor: pointer;
+  border: none;
 }
 .btn:hover {
   background-color: #769c02;

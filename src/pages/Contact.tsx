@@ -14,7 +14,12 @@ const Contact = () => {
           <legend>Tus datos</legend>
           <div className={Styles.campos}>
             <label htmlFor="nombre">Nombre:</label>
-            <input type="text" id="nombre" placeholder="coloca tu nombre" />
+            <input
+              type="text"
+              id="nombre"
+              placeholder="coloca tu nombre"
+              required
+            />
           </div>
           <div className={Styles.campos}>
             <label htmlFor="asunto">Asunto:</label>
@@ -51,7 +56,27 @@ const Contact = () => {
         </fieldset>
         <fieldset>
           <legend>Información Extra</legend>
+          <div className={Styles.campos}>
+            <label htmlFor="cliente">Cliente</label>
+            <input type="radio" name="opcion" id="cliente" />
+          </div>
+          <div className={Styles.campos}>
+            <label htmlFor="proveedor">Proveedor</label>
+            <input type="radio" name="opcion" id="proveedor" />
+          </div>
+          {/* <div className={Styles.campos}>
+            <label htmlFor="categoria">Categoría de Interés</label>
+            <input list="categorias"  name="categorias" />
+            <datalist id="categorias" />
+            <option value="Cocina" />
+            <option value="Exterior" />
+            <option value="Dormitorio" />
+            <option value="Comedor" />
+            <option value="Oficina" />
+          </div> */}
         </fieldset>
+
+        <input className="btn btn:hover" type="submit" value="Enviar" />
       </form>
       <Footer />
     </>

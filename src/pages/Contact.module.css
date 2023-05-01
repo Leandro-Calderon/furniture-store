@@ -1,3 +1,39 @@
-.campos{
-    
+h2{
+    text-align: center;
+}
+form {
+  max-width: 60rem;
+  margin: 0 auto;
+}
+fieldset {
+  border: 1px solid black;
+  margin-bottom: 2rem;
+}
+legend {
+  background-color: #005485;
+  width: 100%;
+  text-align: center;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: 900;
+  padding: 1rem;
+  margin-bottom: 2rem;
+}
+.campos {
+  display: flex;
+  margin-bottom: 2rem;
+}
+.campos label {
+  flex-basis: 10rem;
+}
+
+.campos input:not([type="radio"]) {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
+}
+textarea {
+  flex: 1;
+  border: 1px solid #e1e1e1;
+  padding: 1rem;
 }
